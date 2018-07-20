@@ -1,0 +1,8 @@
+---
+version: '2'
+services:
+  elixir:
+    image: elixir
+    working_dir: /app
+    volumes:
+      - ./:/app
